@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(45deg, rgba(15, 236, 144, 0.5), rgba(15, 236, 144, 0.1));
+}
+
+#pic{
+    height:75vh;
+    position: absolute;
+    top: 15%;
+    left: 18%;
+}
+@media{
+    #pic{
+        min-height: 0vh;
+        max-height: 75vh;
+    }
+}
+
+:root{
+    --base : yellow;
+    --spacing: 10px;
+    --blur : 10px;
+}
+
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.h1{
+    color:var(--base);
+}
+
+.controls{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 4vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.p{
+    font-size: 6vh;
+    font-weight: bold;
+}

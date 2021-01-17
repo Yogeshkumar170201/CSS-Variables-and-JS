@@ -7,17 +7,17 @@ body{
 }
 
 #pic{
-    height:75vh;
+    width: 50%;
     position: absolute;
-    top: 15%;
-    left: 18%;
+    top: 30%;
+    left: 25%;
 }
-@media{
+/* @media{
     #pic{
         min-height: 0vh;
         max-height: 75vh;
     }
-}
+} */
 
 :root{
     --base : yellow;
@@ -37,7 +37,6 @@ img{
 
 .controls{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     font-size: 4vh;
     font-family: Georgia, 'Times New Roman', Times, serif;
